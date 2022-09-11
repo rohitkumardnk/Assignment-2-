@@ -1,0 +1,57 @@
+1.What are the common built-in data types in Python?
+Python supports the below-mentioned built-in data types:
+
+Immutable data types:
+
+Number
+String
+Tuple
+Mutable data types:
+
+List
+Dictionary
+set
+
+Q2. Is python case sensitive?
+Yes, Python is a case sensitive language. This means that Function and function both are different in pythons like SQL and Pascal.
+
+Explain split(), sub(), subn() methods of “re” module in Python?
+These methods belong to the Python RegEx or ‘re’ module and are used to modify strings.
+
+Q3. split(): This method is used to split a given string into a list.
+sub(): This method is used to find a substring where a regex pattern matches, and then it replaces the matched substring with a different string.
+subn(): This method is similar to the sub() method, but it returns the new string, along with the number of replacements.
+
+Q4. What are Dict and List comprehensions?
+Python comprehensions are like decorators, that help to build altered and filtered lists, dictionaries, or sets from a given list, dictionary, or set. Comprehension saves a lot of time and code that might be considerably more complex and time-consuming.
+
+Comprehensions are beneficial in the following scenarios:
+
+Performing mathematical operations on the entire list
+Performing conditional filtering operations on the entire list
+Combining multiple lists into one
+Flattening a multi-dimensional list
+
+Q5.What is the difference between list and tuple?
+The difference between list and tuple is that list is mutable while tuple is not. Tuple can be hashed, for example., as a key for dictionaries.
+
+Q6. What is lambda in Python?
+It is a single expression anonymous function often used as inline function.
+
+Q7. Why lambda forms in python do not have statements?
+A lambda form in python does not have statements as it is used to make new function object and then return them at runtime.
+
+Q8. Explain slicing in Python?
+A mechanism to select a range of items from sequence types like list, tuple, strings etc., is known as slicing.
+
+Q9. What are the rules for local and global variables in Python?
+Here are the rules for local and global variables in Python:
+
+Local variables: If a variable is assigned a new value anywhere within the function’s body, it’s assumed to be local.
+
+Global variables: Those variables that are only referenced inside a function are implicitly global.
+
+Q10.What is the use of // operator in Python?
+It is a Floor Divisionoperator, which is used for dividing two operands with the result as a quotient showing only digits before the decimal point. For instance, 10//5 = 2 and 10.0//5.0 = 2.0.
+
+
